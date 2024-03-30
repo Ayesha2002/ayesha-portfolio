@@ -163,7 +163,7 @@
 <!--Contact Design-->
 <section class="contact" id="contact">
     <h2 class="heading">Contact<span>Me</span></h2>
-    <form onsubmit="sendEmail(); reset(); return false;">
+    <form >
         <div class="input-box">
             <input type="text" placeholder="Full Name">
             <input type="email" placeholder="Email Address">
@@ -175,7 +175,7 @@
         </div>
 
         <textarea name=""  id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <input type="submit" value="Send Message" class="btn">
+        <button onclick="sendMessage();">Send Message</button>
     </form>
 </section>
 
