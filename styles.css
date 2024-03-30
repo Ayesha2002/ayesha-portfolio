@@ -356,22 +356,9 @@ animation: floatImage 5s ease-in-out infinite;
     resize: none;
 }
 
-button{
-    display: block;
-    margin: auto;
-    background:#262B40;
-    color: #fff;
-    border: #59B2F4;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 17px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+.contact form .btn{
+    margin-top: 2rem;
     cursor: pointer;
-
-}
-
-button:hover{
-    background: #59B2F4;
 }
 
 .footer{
